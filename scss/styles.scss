@@ -26,6 +26,17 @@
     bottom: 50px
 }
 
+.about-img {
+    // width: 200px;
+    height: 200px;
+}
+
+.project:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: all 0.3s ease-in-out;
+    opacity: 0.9;
+}
 
 @media (max-width: 767px) {
     .header .social i{
@@ -34,5 +45,9 @@
 
     .header .roles{
         font-size: 18px !important;
+    }
+
+    .about-content {
+        flex-direction: column;
     }
 }
